@@ -1,0 +1,83 @@
+
+{% extends 'base.html' %}
+{% load static %} 
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+{% endblock %}
+{% block content %}
+<div class="row align-items-center">
+  <div class="col-md-6">
+    <img class="heroImg img-fluid" src="{% static 'images/homephoto.jpg' %}" alt="img">
+  </div>
+  <div class="col-md-6">
+    <h1 class="display-5"><img src="./images/LOGO.jpg" alt=""></h1> 
+  
+    <p class="lead">Power Up Your Journey, the <span style="color:orangered">Electric</span> Way.<p>
+      <p>We provide eco-friendly electric scooters and bikes on rent, making urban travel affordable, convenient, and sustainable.</p>
+      <a href="/services" class="btn btn-outline-success btn-lg">Our Services</a></p>
+  </div>
+</div>
+
+<hr class="my-5">
+
+{% comment %} <div class="row">
+  <div class="col-md-4">
+    <h4>Why Electric Mobility?</h4>
+    <p>Zero Emission · Easy Maintenance · Lower Operating Cost · IoT enabled</p>
+  </div>
+  <div class="col-md-4">
+    <h4>Services</h4>
+    <p>Sales · Service · DCO · Refinance · Fleet Solutions</p>
+  </div>
+  <div class="col-md-4">
+    <h4>Impact</h4>
+    <p>100850 KGs CO₂ saved · 30L Green KM travelled</p>
+  </div>
+</div> {% endcomment %}
+
+<div class="row">
+  <div class="col-sm-6">
+    <h1 class="partHead">Partnership</h1>
+    <p class="partPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem quos aliquid ex doloremque at repudiandae ab repellat dicta et, modi est hic natus maxime adipisci porro blanditiis debitis qui!</p>
+  </div>
+  <div class="col-sm-6">
+    <img class="partImg img-fluid rounded-4" src="{% static 'images/partImg.png' %}">
+  </div>
+</div>
+
+<div class="row partBox">
+  <h1 class="partHead" style="text-align:center ; text-decoration:underline">Partners</h1>
+  <div class="col-sm-4 partLogo">
+    <marquee scrollamount="15">
+      <img src="{% static 'images/image79.png' %}" alt="">
+      <img src="{% static 'images/image78.png' %}" alt="">
+      <img src="{% static 'images/image80.png' %}" alt="">
+      <img src="{% static 'images/image81.png' %}" alt="">
+      <img src="{% static 'images/image82.png' %}" alt="">
+      <img src="{% static 'images/image83.png' %}" alt="">
+      <img src="{% static 'images/image84.png' %}" alt="">
+      <img src="{% static 'images/image68.png' %}" alt="">
+      <img src="{% static 'images/image86.jpeg' %}" alt="">
+      <img src="{% static 'images/image79.png' %}" alt="">
+      <img src="{% static 'images/image78.png' %}" alt="">
+      <img src="{% static 'images/image80.png' %}" alt="">
+      <img src="{% static 'images/image81.png' %}" alt="">
+      <img src="{% static 'images/image82.png' %}" alt="">
+      <img src="{% static 'images/image83.png' %}" alt="">
+      <img src="{% static 'images/image84.png' %}" alt="">
+      <img src="{% static 'images/image68.png' %}" alt="">
+      <img src="{% static 'images/image86.jpeg' %}" alt="">
+      <img src="{% static 'images/image79.png' %}" alt="">
+      <img src="{% static 'images/image78.png' %}" alt="">
+      <img src="{% static 'images/image80.png' %}" alt="">
+      <img src="{% static 'images/image81.png' %}" alt="">
+      <img src="{% static 'images/image82.png' %}" alt="">
+      <img src="{% static 'images/image83.png' %}" alt="">
+      <img src="{% static 'images/image84.png' %}" alt="">
+      <img src="{% static 'images/image68.png' %}" alt="">
+      <img src="{% static 'images/image86.jpeg' %}" alt="">
+    </marquee>
+  </div>
+</div>
+
+{% endblock %}
