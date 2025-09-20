@@ -66,12 +66,149 @@
     margin: 0 20px;
     height: 150px;
 }
+.why-ev-img{
+  height: 400px;
+}
+
+.why-ft-head{
+  font-size: 16px;
+}
+
+.why-ev-imgBox{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.ft-list img{
+  height: 50px;
+}
+
+.ft-list{
+  height: 100%;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-ev-textBox{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.ft-list0{
+  position: relative;
+  top: -30px;
+  width: 400px;
+}
+
+.ft-list1{
+  position: relative;
+  top: 55px;
+  width: 400px;
+}
+
+.ft-list2{
+  position: relative;
+  top: 80px;
+  width: 400px;
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team h3{
+  background: url(assets/image136.png);
+  background-size: cover;
+  height: 250px;
+  width: 1200px;
+  color: white;
+  padding: 100px;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.card img{
+  height: 100px;
+}
+
+.card{
+  width: 35%;
+}
+
+.director{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 100px;
+}
+.solOuterBox{
+  padding: 100px;
+}
+
+.solImg{
+
+  height: 50px;
+}
+
+.solMainBox{
+  display: flex;
+}
+
+.solInfoRow{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  
+}
+
+.solInfoBox{
+  height: 250px;
+  width: 230px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 10px;
+}
+
+.solImgBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.solHeroImg{
+  height: 200px;
+}
+
 
 /* about */
 .abt-bck{
     height:500px;
-    background-color: black;
+    background-color:black;
+    background: url(/static/images/scooties.png);
+    background-size: cover;
     margin: 0px !important;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(/static/images/scooties.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+    z-index: 2;
 
 
 }
@@ -81,23 +218,59 @@
     align-items: center;
     justify-content: center;
 }
-.Abt-div2{
-    height: 600px;
-    background-color: white;
-    border: 2px solid black;
-     display: flex;
-    font-weight: 100px;
-    justify-content: center;
-}
-.Abt-h2{
-    justify-content: center;
+.abt-h2{
+    font-weight: 700px;
     text-align: center;
-    margin-top:10px;
-    font-weight:700px;
-    float :left;
+    margin :20px;
+}
+.abt-div2{
+    height:600px;
+    
+
+}
+.abt-row1{
+    height: 500px;
+}
+.abt-img1{
+    background-color: black;
+    background: url('/static/images/milestone.png');
+    background-size: cover;
+    height: 400px;
+    margin: 5px;
+    
+    float:left;
+}
+.abt-content{
+       float:left;
+       margin-left: 20px;
+
+}
+.abt-h3{
+       float:left;
+       background-color: green
+}
+.abt-H4{
+    text-align: center;
+    font-weight: 600px;
+}
+.abt-H41{
+    height: 400px;
+    margin-top:20px;
+}
+.abt-H411{
+border-radius: 50%;
+background: url('/static/images/javedsir.png');
+background-size: cover;
     
 }
-.Abt-content{
-    float :left;
+.abt-H413{
+border-radius: 50%;
+background: url('/static/images/Junedsir.png');
+background-size: cover;
     
+}
+.abt-director1{
+
+}
+.abt-H412{
 }
